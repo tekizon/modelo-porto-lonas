@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #FFF;
+
+    --gray-100: #AFAFAF;
+    --gray-200: #525252; //divisor
+    --gray-700: #121416;
+    --gray-900: #0c0c0e;
+
+
+    --divisor: #f0cd7644;
+    --logo-700: #c79108;
+    --logo-500: #e4ab1b;
+}
+
+@media (max-width: 1080px){
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px){
+    html{
+        font-size: 87.5%;
+    }
+}
+
+body{
+    background: var(--gray-900);
+}
+
+h1, h2{
+    color: var(--logo-700);
+}
+
+p, span{
+    color: var(--white)
+}
+body, input, textarea, select, button{
+    font: 400 1em "Poppins", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
