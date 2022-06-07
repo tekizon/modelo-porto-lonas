@@ -55,7 +55,7 @@ export default function Home({ content }: ContentProps) {
               </button>
             </a>
           </section>
-          <img src={content.imagePart1} alt="Conteúdos da sua empresa" />
+          <img src="images/Porto-Lonas-Imagem-Home.png" alt="Conteúdos da sua empresa" />
         </div>
 
         <hr className={styles.divisor} />
