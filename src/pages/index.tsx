@@ -48,7 +48,7 @@ export default function Home({ content }: ContentProps) {
         <div className={styles.containerHeader}>
           <section className={styles.ctaText}>
             <h1>A experiência faz a diferença !!</h1>
-            <span>A mais de 10 anos trazendo o melhor da qualidade em lonas para você.</span>
+            <span>A mais de 30 anos trazendo o melhor da qualidade em lonas para sua carreta. Te ajudando a levar a carga até o destino sempre seca e com a melhor qualidade possível.</span>
             <a href={content.buttonPart1}>
               <button>
                 FAÇA UM ORÇAMENTO!
