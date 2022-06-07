@@ -75,7 +75,7 @@ export default function Home({ content }: ContentProps) {
         <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}> 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.913403178018!2d-47.493799784524704!3d-21.86087570688239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b803c7d61cd33b%3A0x54d933a49d4a8bca!2sPorto%20Lonas!5e0!3m2!1spt-BR!2sbr!4v1653750642508!5m2!1spt-BR!2sbr" width="400" height="300" style={{border:"1px solid #e4ab1b"}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.913403178018!2d-47.493799784524704!3d-21.86087570688239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b803c7d61cd33b%3A0x54d933a49d4a8bca!2sPorto%20Lonas!5e0!3m2!1spt-BR!2sbr!4v1653750642508!5m2!1spt-BR!2sbr" width="400" height="300" style={{border:"1px solid #e4ab1b"}} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           <section>
             <h2 className={styles.secondImage}>Localização</h2>
             <span>Estamos localizados na Av. João Martins da Silveira Sobrinho, 1135 - Vila Daniel, Porto Ferreira - SP, 13660-112</span>
