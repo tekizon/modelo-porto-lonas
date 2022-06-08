@@ -38,7 +38,7 @@ export default function Home({ content }: ContentProps) {
   return (
     <>
       <Head>
-        <title>Home | Tekizon</title> 
+        <title>Home | Porto Lonas</title> 
         <meta property="og:url" content="https://tekizon.com.br/" />
         <meta property="og:title" content="Página Inicial da Tekizon" />
         <meta property="og:description" content="Exemplo de site da Tekizon Sites Personalizáveis. O que acha de fazer seu site com a gente? Nossos sites contam com sistema de fácil gerenciamento, além de poder ser personalizado por você mesmo a qualquer momento." />
@@ -89,30 +89,30 @@ export default function Home({ content }: ContentProps) {
         <div className={styles.benefits}>
           <div className={styles.benefit}>
             <Image
-              src={content.image1Part4}
+              src="/images/Home-Icone-Costura.png"
               alt={content.text1Part4}
               width={110}
               height={110}
             />
-            <p>{content.text1Part4}</p>
+            <p>Costura Tripla</p>
           </div>
           <div className={styles.benefit}>
             <Image 
-              src={content.image2Part4} 
+              src="/images/Home-Icone-Impermeavel.png"
               alt={content.text2Part4}
               width={110}
               height={110}  
             />
-            <p>{content.text2Part4}</p>
+            <p>Lonas Impermeáveis</p>
           </div>
           <div className={styles.benefit}>
             <Image 
-              src={content.image3Part4} 
+              src="/images/Home-Icone-Respiravel.png"
               alt={content.text3Part4} 
               width={110}
               height={110}
             />
-            <p>{content.text3Part4}</p>
+            <p>Lonas Transpirantes</p>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import logo from "../../../public/images/tekizon-logo.svg";
+import logo from "../../../public/images/logo-porto-lonas.png";
 import { ActiveLink } from "../ActiveLink";
 
 
