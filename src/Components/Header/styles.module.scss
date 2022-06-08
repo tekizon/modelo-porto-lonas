@@ -1,7 +1,8 @@
 .headerContainer{
     height: 6rem;
     border-bottom: 1px solid var(--divisor);
-    background: var(--gray-700);
+    background: var(--logo-700);
+    border-bottom: 2px solid var(--gray-1000);
 }
 
 .headerContent{
@@ -11,6 +12,7 @@
     padding: 0 2rem;
     display: flex;
     align-items: center;
+    
 
     img{
         cursor: pointer;
@@ -19,6 +21,7 @@
     nav{
         margin-left: 5rem;
         height: 6rem;
+        
 
         a{
             display: inline-block;
@@ -26,19 +29,19 @@
             padding: 0 0.5rem;
             height: 6rem;
             line-height: 6rem;
-            color: var(--gray-100);
-            transition: color 0.2s;
+            color: var(--gray-700);
+            transition: transform 0.2s;
 
             & + a{
                 margin-left: 2rem;
             }
 
             &:hover{
-                color: var(--white);
+                transform: scale(1.1);
             }
 
             &.active{
-                color: var(--logo-700);
+                color: var(--gray-1000);
                 font-weight: bold;
             }
         }
@@ -48,13 +51,13 @@
     margin-left: auto;
     height: 3rem;
     border-radius: 3rem;
-    background: var(--logo-700);
+    background: var(--gray-700);
     border: 0;
     padding: 0 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--gray-700);
+    color: var(--logo-700);
     font-weight: bold;
     transition: filter 0.2s;
 

@@ -13,8 +13,7 @@
     justify-content: space-between;
 
     img{
-        max-width: 640px;
-        max-height: 600px;
+        max-width: 660px;
     }
 }
 
@@ -190,13 +189,8 @@
         }
         
         .sectionContent{
-            section{
-                span{
-                    display: flex;
-                    text-align: center;
-                    align-items: center;
-                    justify-content: center;
-                }
+            iframe{
+                margin-right: 2rem;
             }
         }
     }
@@ -251,7 +245,13 @@
                 text-align: center;
             }
             span{
+                display: flex;
                 text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            iframe{
+                margin-right: 0;
             }
 
             .secondImage{
@@ -283,7 +283,6 @@
         place-content: center;
     }
 }
-
 @media (max-width: 400px){
     .sectionContent{
         iframe{
