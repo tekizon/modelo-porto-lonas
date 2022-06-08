@@ -2,7 +2,8 @@
     height: 6rem;
     border-bottom: 1px solid var(--divisor);
     background: var(--logo-700);
-    border-bottom: 2px solid var(--gray-1000);
+    -webkit-box-shadow: 0px 8px 15px 4px rgba(0,0,0,0.6); 
+    box-shadow: 0px 8px 15px 4px rgba(0,0,0,0.6);
 }
 
 .headerContent{
