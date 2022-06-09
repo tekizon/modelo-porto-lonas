@@ -81,7 +81,7 @@ export default function Home({ content }: ContentProps) {
           <section>
             <h2>O Enlona Fácil</h2>
             <p>Você cobre a carroceria do chão, em segundos, evitando amarrações e a necessidade de subir no equipamento.</p>
-            <p>Assista ao vídeo ao lado para entender melhor o quão fácil, rápido e seguro é o sistema</p>
+            <p className={styles.paragrafo2enlona}>Assista ao vídeo ao lado para entender melhor o quão fácil, rápido e seguro é o sistema.</p>
           </section>
         </div>
 
