@@ -60,19 +60,22 @@ export default function Home({ content }: ContentProps) {
 
         <hr className={styles.divisor} />
 
-        <div className={styles.sectionContent1}> 
-          <section>
-            <h2>Nossos serviços</h2>
-            <p> - Confecção de lonas em PVC</p>
-            <p> - Personalização em lonas</p>
-            <p> - Enlonafácil</p>
-            <p> - Sider</p>
-            <p> - Consertos em geral</p>
-            <p> - Lonas para Piscina</p>
-            <p> - Lonas para Barcos</p>
-          </section>
-          <img src="/images/servicos.png" alt="Conteúdos desenvolvimento de Apps" />
+        <div className={styles.backgroundForte}>
+          <div className={styles.sectionContent1}> 
+            <section>
+              <h2>Nossos serviços</h2>
+              <p> - Confecção de lonas em PVC</p>
+              <p> - Personalização em lonas</p>
+              <p> - Enlonafácil</p>
+              <p> - Sider</p>
+              <p> - Consertos em geral</p>
+              <p> - Lonas para Piscina</p>
+              <p> - Lonas para Barcos</p>
+            </section>
+            <img src="/images/servicos.png" alt="Conteúdos desenvolvimento de Apps" />
+          </div>
         </div>
+        
 
         <hr className={styles.divisor} />
 
@@ -88,6 +91,7 @@ export default function Home({ content }: ContentProps) {
 
         <hr className={styles.divisor} />
 
+        <div className={styles.backgroundForte}>
         <div className={styles.benefits}>
           <div className={styles.benefit}>
             <Image
@@ -117,6 +121,8 @@ export default function Home({ content }: ContentProps) {
             <p>Lonas Transpirantes</p>
           </div>
         </div>
+        </div>
+      
 
         <hr className={styles.divisor} />
 
@@ -131,15 +137,18 @@ export default function Home({ content }: ContentProps) {
         </div>
 
       <hr className={styles.divisor} />
-
+      
+      <div className={styles.backgroundForte}>
         <div className={styles.nextLevelContent}>
-          <Image src={techsImage} alt="Tecnologias" />
-          <h2><span className={styles.alunos}>Milhares</span> de empresas já elevaram seu negócio ao próximo nivel.</h2>
-          <span>E você vai perder a chance de evoluir de uma vez por todas?</span>
-          <a href={content.buttonPart1}>
-            <button>QUERO EVOLUIR!</button>
-          </a>
-        </div>
+            <Image src={techsImage} alt="Tecnologias" />
+            <h2><span className={styles.alunos}>Milhares</span> de empresas já elevaram seu negócio ao próximo nivel.</h2>
+            <span>E você vai perder a chance de evoluir de uma vez por todas?</span>
+            <a href={content.buttonPart1}>
+              <button>QUERO EVOLUIR!</button>
+            </a>
+          </div>
+      </div>
+        
         <WhatsappButton link={content.whatsappNumber} />
       </main>
       <Footer />
