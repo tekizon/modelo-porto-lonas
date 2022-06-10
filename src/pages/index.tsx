@@ -60,7 +60,7 @@ export default function Home({ content }: ContentProps) {
 
         <hr className={styles.divisor} />
 
-        <div className={styles.sectionContent}> 
+        <div className={styles.sectionContent1}> 
           <section>
             <h2>Nossos serviços</h2>
             <p> - Confecção de lonas em PVC</p>
@@ -76,13 +76,13 @@ export default function Home({ content }: ContentProps) {
 
         <hr className={styles.divisor} />
 
-        <div className={styles.sectionContent}> 
+        <div className={styles.sectionContent2}> 
           <img src="/images/servicos.png" alt="Conteúdos desenvolvimento de Apps" />
           <section>
             <h2>O Enlona Fácil</h2>
             <p>Você cobre a carroceria do chão, em segundos, evitando amarrações e a necessidade de subir no equipamento.</p>
-            <p className={styles.paragrafo2enlona}>Assista ao vídeo ao lado para entender melhor o quão fácil, rápido e seguro é o sistema.</p>
-            <p className={styles.paragrafo2enlonaMobile}>Assista ao vídeo acima para entender melhor o quão fácil, rápido e seguro é o sistema.</p>
+            <p className={styles.paragrafo2enlona}>Assista o vídeo ao lado para entender melhor o quão fácil, rápido e seguro é o sistema.</p>
+            <p className={styles.paragrafo2enlonaMobile}>Assista o vídeo acima para entender melhor o quão fácil, rápido e seguro é o sistema.</p>
           </section>
         </div>
 
@@ -120,7 +120,7 @@ export default function Home({ content }: ContentProps) {
 
         <hr className={styles.divisor} />
 
-        <div className={styles.sectionContent}> 
+        <div className={styles.sectionContent3}> 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.913403178018!2d-47.493799784524704!3d-21.86087570688239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b803c7d61cd33b%3A0x54d933a49d4a8bca!2sPorto%20Lonas!5e0!3m2!1spt-BR!2sbr!4v1653750642508!5m2!1spt-BR!2sbr" width="400" height="300" style={{border:"0"}} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           <section>
             <h2>Localização</h2>
